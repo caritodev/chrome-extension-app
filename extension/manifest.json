@@ -1,7 +1,8 @@
 {
-    "name": "extension de caritoDev! :)",
+    "name": "Carito extension",
     "version": "1.0.0",
     "manifest_version": 3,
+    "description": "Basic example",
     "action": {
         "default_popup": "index.html"
     }
