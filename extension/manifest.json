@@ -1,9 +1,20 @@
 {
-    "name": "Carito extension",
+    "name": "Qr Shortcut",
     "version": "1.0.0",
     "manifest_version": 3,
-    "description": "Basic example",
+    "description": "My extension shortcut",
     "action": {
-        "default_popup": "index.html"
+        "default_popup": "index.html",
+        "default_title": "Qr Shortcut",
+        "default_icon": {
+            "16": "icon-chrome.png",
+            "48": "icon-chrome.png",
+            "128": "icon-chrome.png"
+        }
+    },
+    "icons": {
+        "16": "icon-chrome.png",
+        "48": "icon-chrome.png",
+        "128": "icon-chrome.png"
     }
-}  
+}
